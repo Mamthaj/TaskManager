@@ -15,7 +15,7 @@ public class StartApp {
 
 	@SuppressWarnings("resource")
 	public static void displayTaskMenu(String categoryName){
-		
+		System.out.println("I changed the main class method ");
 		Scanner sc3 = new Scanner(System.in);
 		Scanner sc4 = new Scanner(System.in);
 		int inp2 = 0;
