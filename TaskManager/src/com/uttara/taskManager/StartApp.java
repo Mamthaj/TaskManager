@@ -275,8 +275,7 @@ public class StartApp {
 		
 }
 
-	public static void main(String[] args) {
-		System.out.println("In main method");
+	public static void main(String[] args)
 		Scanner sc1 = new Scanner(System.in);
 		Scanner sc2 = new Scanner(System.in);
 		try{
