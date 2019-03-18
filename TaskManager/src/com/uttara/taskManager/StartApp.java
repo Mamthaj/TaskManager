@@ -15,6 +15,7 @@ public class StartApp {
 
 	@SuppressWarnings("resource")
 	public static void displayTaskMenu(String categoryName){
+		System.out.println("to test multiple functions");
 		Scanner sc3 = new Scanner(System.in);
 		Scanner sc4 = new Scanner(System.in);
 		int inp2 = 0;
@@ -276,6 +277,7 @@ public class StartApp {
 }
 
 	public static void main(String[] args) {
+		System.out.println("In main method");
 		Scanner sc1 = new Scanner(System.in);
 		Scanner sc2 = new Scanner(System.in);
 		try{
