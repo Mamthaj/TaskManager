@@ -23,7 +23,6 @@ public class TaskModel {
 	public boolean doesTaskExist(String taskName, String catName) throws IOException {
 		String path = Constants.PATH+catName+".todo";
 		BufferedReader br = null;
-		System.out.println("hello");
 		String line;
 		File file = new File(path);
 		if(file.exists()){
